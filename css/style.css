@@ -1,0 +1,105 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*main structure*/
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 3em auto;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 2em;
+}    
+
+/*article*/
+
+.article {
+    display: inline-block;
+    position: relative;
+    width: calc((100%/3) - 8px);
+    margin: 0 4px;
+    vertical-align: top;
+}
+
+.article img{
+    width: 100%;
+}
+
+.heart-container{
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    right: 0%;
+    top: 3%;
+    background-color: white;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    
+}
+
+.heart{
+    font-size: 1.5em;
+    display: block;
+    margin: auto 0;
+    padding-top: 0.2em;
+
+}
+
+.first-tag{
+    font-size: 0.6em;
+    position: absolute;
+    padding: 0.3em 0.5em;
+    bottom: 5%;
+    left: 0%;
+    color: white;
+    background-color: #EB0037;
+
+}
+
+.second-tag{
+    font-size: 0.6em;
+    position: absolute;
+    padding: 0.3em 0.5em;
+    bottom: 5%;
+    left: 10% ;
+    color: white;
+    background-color: #00875A;
+
+}
+
+.container-two{
+    margin-top: -3%;
+    margin-left: 0.5%;
+    line-height: 0.7em;
+}
+
+.brand{
+    font-size: 0.6em;
+    color: gray;
+}
+
+.model{
+     font-size: 0.9em;
+}
+
+.original-price{
+    font-size: 0.6em;
+    color: red;
+}
+
+.new-price{
+    font-size: 0.6em;
+    text-decoration: line-through;
+}
