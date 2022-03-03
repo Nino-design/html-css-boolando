@@ -13,7 +13,7 @@ html{
 
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 3em auto;
 }
 
@@ -27,14 +27,16 @@ html{
 .article {
     display: inline-block;
     position: relative;
-    width: calc((100%/3) - 8px);
-    margin: 0 4px;
+    width: calc((100%/3) - 10px);
+    margin: 0 2px;
     vertical-align: top;
 }
 
 .article img{
     width: 100%;
+   
 }
+/*heart*/
 
 .heart-container{
     width: 2em;
@@ -57,11 +59,13 @@ html{
 
 }
 
+/*tags*/
+
 .first-tag{
     font-size: 0.6em;
     position: absolute;
     padding: 0.3em 0.5em;
-    bottom: 5%;
+    bottom: 12%;
     left: 0%;
     color: white;
     background-color: #EB0037;
@@ -72,34 +76,55 @@ html{
     font-size: 0.6em;
     position: absolute;
     padding: 0.3em 0.5em;
-    bottom: 5%;
+    bottom: 12%;
     left: 10% ;
     color: white;
     background-color: #00875A;
 
 }
 
-.container-two{
-    margin-top: -3%;
-    margin-left: 0.5%;
-    line-height: 0.7em;
+
+#special-tag{
+    left: 0;
 }
+
+/*brand*/
 
 .brand{
     font-size: 0.6em;
-    color: gray;
+    color: grey;
+    margin-bottom: 0.1em;
+    
 }
 
+/*model*/
 .model{
      font-size: 0.9em;
+     
 }
 
+/*prices*/
 .original-price{
     font-size: 0.6em;
-    color: red;
+    color: grey;
+    text-decoration: line-through;
 }
 
 .new-price{
     font-size: 0.6em;
-    text-decoration: line-through;
+    color: red;
+    
+}
+
+/*over effect*/
+.second-image{
+    display: none;
+}
+
+.article:hover .first-image{
+    display: none;
+}
+
+.article:hover .second-image{
+    display: inline-block;
 }
